@@ -31,8 +31,14 @@ public class GuineaPigFileHandler {
 
             while ((line = reader.readLine()) != null) {
 
-                /*
-                Example CSV line:
+                String[] parts = line.split(",");
+                String name = parts[0];
+                int age = Integer.parseInt(parts[1]);
+                double weight = Double.parseDouble(parts[2]);
+                Breed breed = Breed.valueOf(parts[3]);
+                Color color = Color.valueOf(parts[4]);
+
+                /* Example CSV line:
 
                 Coco,2,1.2,AMERICAN,BROWN
 
@@ -44,8 +50,6 @@ public class GuineaPigFileHandler {
                 */
 
                 // STUDENT CODE HERE
-
-
 
             }
 
