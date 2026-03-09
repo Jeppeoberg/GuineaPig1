@@ -1,6 +1,6 @@
 package GuineaFarm.app;
 
-import Lesson17.GuineaFarm.ui.UserInterface;
+import GuineaFarm.ui.UserInterface;
 
 public class GuineaFarmApp {
 
