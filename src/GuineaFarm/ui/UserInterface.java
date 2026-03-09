@@ -1,8 +1,8 @@
 package GuineaFarm.ui;
 
-import Lesson17.GuineaFarm.model.GuineaPig;
-import Lesson17.GuineaFarm.service.GuineaPigFileHandler;
-import Lesson17.GuineaFarm.util.GuineaPigSorter;
+import GuineaFarm.model.GuineaPig;
+import GuineaFarm.service.GuineaPigFileHandler;
+import GuineaFarm.util.GuineaPigSorter;
 
 import java.util.ArrayList;
 import java.util.Scanner;

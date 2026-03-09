@@ -1,6 +1,6 @@
 package GuineaFarm.util;
 
-import Lesson17.GuineaFarm.model.GuineaPig;
+import GuineaFarm.model.GuineaPig;
 
 import java.util.ArrayList;
 
